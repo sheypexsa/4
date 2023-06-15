@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(107, 186, 255, 0.274);
+    }
+    
+    .bg {
+    width: 100%;
+    height: auto;
+    }
+    
+    .container {
+    top: 10%;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    }
+    
+    .child1 img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    }
+    
+    .h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .h2 {
+        padding-left: 100px;
+        padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(127, 148, 192);
+    }
+    
+    .container2 {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(244, 245, 255);
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    }
+    .child5{
+    position: fixed;
+    width: 100px;
+    }
+    
+    .child6 {
+    position: fixed;
+    transform: translate(80px, 45px);
+    }
+    
+    .child7 {
+    position: fixed;
+    transform: translate(140px, -27px);
+    
+    }
+    
+    .child8 {
+    position:absolute;
+    transform: translate(-205px, -35px);
+    }
+    .h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    transform: translate(80px, 25px);
+    
+    }
+    
+    .h4 {
+        font-size: 14px;
+        color: rgb(78, 78, 78);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .h5 {
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(55, 71, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+    }
+    
+    .button1 {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 255);
+    box-shadow: 5px 5px 20px 1px rgb(84, 84, 255);
+    font-weight: bold;
+    border: none
+    }
+    
+    .Text1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: grey;
+    }
